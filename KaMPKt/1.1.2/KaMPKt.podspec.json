@@ -1,0 +1,23 @@
+{
+  "name": "KaMPKt",
+  "version": "1.1.2",
+  "license": {
+    "type": "Proprietary",
+    "text": "© 2020 Square, Inc."
+  },
+  "homepage": "https://github.com/kpgalligan/podsspot",
+  "authors": "Square",
+  "summary": "Cash Kotlin Multiplatform",
+  "source": {
+    "http": "http://localhost:3000/archive.zip"
+  },
+  "resources": "*",
+  "libraries": "sqlite3",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/KaMPKt.framework"
+  },
+  "static_framework": true
+}
