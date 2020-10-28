@@ -1,0 +1,23 @@
+{
+  "name": "KaMPKt",
+  "version": "1.1.3-static-direct3",
+  "license": {
+    "type": "Proprietary",
+    "text": "Hey"
+  },
+  "homepage": "https://github.com/kpgalligan/podsspot",
+  "authors": "KPG",
+  "summary": "Kotlin Multiplatform",
+  "source": {
+    "http": "http://localhost:3000/build/pod-publish/archive.zip"
+  },
+  "resources": "*",
+  "libraries": "sqlite3",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/KaMPKt.framework"
+  },
+  "static_framework": true
+}
