@@ -1,0 +1,29 @@
+{
+  "name": "kampkt2",
+  "version": "1.1.11-ff",
+  "license": {
+    "type": "Proprietary",
+    "text": "Hey"
+  },
+  "homepage": "https://github.com/kpgalligan/podsspot",
+  "authors": "KPG",
+  "summary": "Kotlin Multiplatform",
+  "source": {
+    "http": "http://localhost:3000/build/pod-publish/archive.zip"
+  },
+  "libraries": "c++",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/kampkt2.framework"
+  },
+  "static_framework": true,
+  "module_name": "kampkt2_umbrella",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
+}
