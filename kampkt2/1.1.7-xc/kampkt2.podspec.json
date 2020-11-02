@@ -1,0 +1,23 @@
+{
+  "name": "kampkt2",
+  "version": "1.1.7-xc",
+  "license": {
+    "type": "Proprietary",
+    "text": "Hey"
+  },
+  "homepage": "https://github.com/kpgalligan/podsspot",
+  "authors": "KPG",
+  "summary": "Kotlin Multiplatform",
+  "source": {
+    "http": "https://1se-crowds-debug.s3.amazonaws.com/archive.zip"
+  },
+  "resources": "*",
+  "libraries": "sqlite3",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/kampkt2.xcframework"
+  },
+  "static_framework": true
+}
